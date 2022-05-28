@@ -1,3 +1,46 @@
-h1 {
-    color: red;
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v24-latin_cyrillic-regular.woff2') format('woff2'),
+        url('../fonts/montserrat-v24-latin_cyrillic-regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v24-latin_cyrillic-600.woff2') format('woff2'),
+        url('../fonts/montserrat-v24-latin_cyrillic-600.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v24-latin_cyrillic-700.woff2') format('woff2'),
+        url('../fonts/montserrat-v24-latin_cyrillic-700.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat-v24-latin_cyrillic-800.woff2') format('woff2'),
+        url('../fonts/montserrat-v24-latin_cyrillic-800.woff') format('woff')
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Montserrat' sans-serif; 
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
